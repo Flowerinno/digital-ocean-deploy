@@ -1,6 +1,7 @@
-#Backend is hosted via Droplet
+# Backend is hosted via Droplet
 
 Virtual Machine like EC2 with Ubuntu OS. We will install everything by hand and configure load balancer, SSL certificates, NGNIX and firewall rules.
+ENVs are managed through AWS secrets as before, so you'll just need to create your secret in Secrets Manager and add all variables. Notify you client about this.
 
 ### Create -> Droplet
 
@@ -13,5 +14,9 @@ Virtual Machine like EC2 with Ubuntu OS. We will install everything by hand and 
 
 ### Go to your created droplet
 1. Create reserved ip to have a consistent ip
-2. 
+2. Connect to your droplet with command: `ssh root@droplet-reserved-ip`
+3. Installing necessary packages:
+
+   1. [https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions](Node + npm)
+   
 
