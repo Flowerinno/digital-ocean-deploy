@@ -18,5 +18,11 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
 3. Installing necessary packages:
 
    1. [Node + npm](https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions)
+   2. `sudo npm i pm2 -g`
+   3. `sudo apt install -y jq`
+   4. `sudo apt install unzip`
+   5. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+   6. Run command `aws configure` and paste Access key and Secret Access Key and region
+   7. 
    
 
