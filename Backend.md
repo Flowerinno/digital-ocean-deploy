@@ -17,6 +17,6 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
 2. Connect to your droplet with command: `ssh root@droplet-reserved-ip`
 3. Installing necessary packages:
 
-   1. [https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions](Node + npm)
+   1. [Node + npm](https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions)
    
 
