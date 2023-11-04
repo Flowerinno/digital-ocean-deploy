@@ -32,16 +32,17 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
        sudo ufw default allow outgoing`
    9. `sudo ufw allow 'Nginx HTTP'`
    10. `sudo ufw allow 'Nginx HTTPS'`
-   11. `sudo ufw allow ssh`
-   12. `sudo ufw allow 8080`
-   13. `sudo ufw allow http`
-   14. `sudo ufw allow https`
-   15. `sudo ufw enable`
-   16. `sudo ufw status` you will see allowed http traffic
-   17. `systemctl status nginx` see if ngnix is running
-   18. `nano /etc/nginx/sites-enabled/default` (Ctrl + K to remove by line)
+   11. `sudo ufw allow 'Nginx Full'`
+   12. `sudo ufw allow ssh`
+   13. `sudo ufw allow 8080`
+   14. `sudo ufw allow http`
+   15. `sudo ufw allow https`
+   16. `sudo ufw enable`
+   17. `sudo ufw status` you will see allowed http traffic
+   18. `systemctl status nginx` see if ngnix is running
+   19. `nano /etc/nginx/sites-enabled/default` (Ctrl + K to remove by line)
        Remove all contents and paste [this code](https://pastecode.dev/s/oc3EyiLl)
-   19. `sudo systemctl restart nginx`   
+   20. `sudo systemctl restart nginx`   
 
 4. Generate ssh key `ssh-keygen` skip all
    1. `cat .ssh/id_rsa.pub` copy and paste to github deploy key no name required
@@ -78,5 +79,7 @@ After creation add `A` record: Name: api - Value: load balancer
 
 8. Navigate to your local server directory and run `pm2 deploy production setup`
 9. `pm2 deploy production`
+
+10. It could take some time for secured https url to work, be patient.
 
 
