@@ -5,7 +5,7 @@ Almost completely compatible to S3, no re-write was needed for me, just needed t
 ### Create -> Spaces
 
 1. Configure creation no CDN required
-2. Copy origin url after creation and add to your s3 client in the code like this without your bucket's name.
+2. Copy origin url (without your bucket's name) after creation and add to your s3 client in the code like this
 <img width="339" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/3f56488c-a38e-42cb-8591-06eb5d8c997d">
 
 <br/>
