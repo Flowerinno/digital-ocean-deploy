@@ -73,7 +73,8 @@ After creation add `A` record: Name: api - Value: load balancer
 
 6. Configure your ecosystem.config.js like this
 
-   <img width="627" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/2ba9dd4f-343a-48e4-9b48-7af934ab69ca">
+   <img width="629" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/833a7177-55a1-4261-ae8e-5baf543df3cd">
+
 
 8. Navigate to your local server directory and run `pm2 deploy production setup`
 9. `pm2 deploy production`
