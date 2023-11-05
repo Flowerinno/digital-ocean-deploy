@@ -6,9 +6,9 @@ Almost completely compatible to S3, no re-write was needed for me, just needed t
 
 1. Configure creation no CDN required
 2. Copy origin url after creation and add to your s3 client in the code like this without your bucket's name.
-
 <img width="339" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/3f56488c-a38e-42cb-8591-06eb5d8c997d">
 
+<br/>
 
    
 <img width="495" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/d2c4fbe6-eb0d-46b4-b893-fa3a9a25f9b4">
