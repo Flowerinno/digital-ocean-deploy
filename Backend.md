@@ -59,7 +59,7 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
 2. Number of nodes = 1
 3. Configure forwarding rules, add SSL certificate
    Add `A` record to your hosted zone with:
-   Name: api    Value: Choose Droplet's reserved api
+   Name: api    Value: Choose Droplet's reserved api (DELETE IT AFTER LOAD BALANCER IS CREATED)
    
  <img width="1035" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/1a8e2cf0-eb2a-4b01-8d75-6a1056d9435a">
 
