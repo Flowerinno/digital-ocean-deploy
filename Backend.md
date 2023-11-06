@@ -67,7 +67,7 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
    
 <img width="986" alt="image" src="https://github.com/Flowerinno/digital-ocean-deploy/assets/93313212/11952fae-15f2-4a4a-b4e4-77e14a56ee25">
 
-After creation add `A` record: Name: api - Value: load balancer
+After creation add `A` record: Name: api - Value: load balancer (DELETE ANOTHER api record)
 
 5. Configure your aws secret with appropriate env variables
 
