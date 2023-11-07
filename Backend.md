@@ -26,10 +26,8 @@ ENVs are managed through AWS secrets as before, so you'll just need to create yo
    4. `sudo apt install unzip`
    5. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
    6. Run command `aws configure` and paste Access key and Secret Access Key and region
-   7. `sudo apt update
-       sudo apt install nginx`
-   8.  `sudo ufw default deny incoming
-       sudo ufw default allow outgoing`
+   7. `sudo apt update & sudo apt install nginx`
+   8.  `sudo ufw default deny incoming & sudo ufw default allow outgoing`
    9. `sudo ufw allow 'Nginx Full'`
    10. `sudo ufw allow ssh`
    11. `sudo ufw allow 8080`
